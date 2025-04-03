@@ -1,0 +1,153 @@
+#EXTM3U url-tvg="http://iptvx.one/EPG_LITE"
+
+#EXTINF:-1 group-title="Россия" tvg-id="pervy",Первый канал HD
+http://tv.streams.baikal-telecom.net:8080/PerviyHD/index.m3u8
+
+#EXTINF:-1 group-title="Россия" tvg-id="pervy-pl4",Первый канал HD (+4)
+https://edge3.1internet.tv/dash-live2/streams/1tv-orbit-plus-4/1tv-orbit-plus-4.mpd
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="pervy-pl3",Первый канал (+3)
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="pervy-pl7",Первый канал (+7)
+https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_1TV/variant.m3u8
+
+#EXTINF:-1 group-title="Россия" tvg-id="rossia1",Россия1 HD
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/1080p.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="rossia1-pl3",Россия 1 (+3)
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="rossia1-pl7",Россия 1 (+7)
+https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_ROSSIA1/variant.m3u8
+
+#EXTINF:-1 group-title="Россия" tvg-id="ntv HD",НТВ HD
+http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="ntv-pl4",НТВ (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="ntv-pl7",НТВ (+7)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
+
+#EXTINF:-1 group-title="Россия" tvg-id="rossiya k",Россия К
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
+
+#EXTINF:-1  group-title="Россия" tvg-id="kultura-pl4",Россия К (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8
+
+#EXTINF:-1 group-title="Россия" tvg-id="kultura-pl7",Россия К (+7)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="mir",Мир
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="mir-pl7",Мир (+7)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
+
+#EXTINF:-1 group-title="Россия" tvg-id="zvezda",Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="zvezda-pl4",Звезда (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="zvezda-pl7",Звезда (+7)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
+
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="otr",Общественное телевидение России
+https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
+
+#EXTINF:-1  group-title="Россия" tvg-id="rbk",РБК HD
+http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
+
+#EXTINF:-1  group-title="Россия" tvg-id="igi", Известия HD
+http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
+
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="12-omsk",12 канал HD
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="49kanal",НСК 49
+https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="krasnaya-linia",Красная Линия
+https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Россия" tvg-id="obkomtv",Обком ТВ
+http://www.omsk-kprf.ru/hls/stream.m3u8
+
+#EXTINF:-1 group-title="Россия", Ратник 
+http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Россия", Время 
+http://185.37.150.40:8092/Vremya/playlist.m3u8
+
+#EXTINF:-1 group-title="Россия", Ностальгия
+http://178.124.152.238:8088/nostalgia
+
+
+
+
+
+#EXTINF:-1 tvg-name="Старое Радио Театр" group-title="Радио", Старое Радио Театр
+#EXTGRP:Радио
+http://server.audiopedia.su:8000/ices128
+
+#EXTINF:-1 tvg-name="Старое Радио - Музыка" group-title="Радио", Старое Радио - Музыка
+#EXTGRP:Радио
+http://server.audiopedia.su:8000/music128
+
+#EXTINF:-1 tvg-name="Старое Радио - Детское" group-title="Радио", Старое Радио - Детское
+#EXTGRP:Радио
+http://server.audiopedia.su:8000/detskoe128
+
+#EXTINF:-1 tvg-name="Радио Книга" group-title="Радио", Радио Книга
+#EXTGRP:Радио
+http://bookradio.hostingradio.ru:8069/fm
+
+#EXTINF:-1 tvg-name="Советская эстрада" group-title="Радио", Советская Эстрада
+#EXTGRP:Радио
+http://evcast.mediacp.eu:2110/stream
+
+#EXTINF:-1 tvg-name="Советские песни" group-title="Радио", Советские Песни
+#EXTGRP:Радио
+http://sovetskie-pesni.ru:8000/stream
+
+#EXTINF:-1 tvg-name="Музыка Советского Кино" group-title="Радио", Музыка Советского Кино
+#EXTGRP:Радио
+http://rr-russkoekino.hostingradio.ru/russkoekino96.aacp?0.9724754306696768
+
+
+#EXTINF:-1 tvg-name="Мелодия" group-title="Радио", Мелодия
+#EXTGRP:Радио
+http://stream128.melodiafm.spb.ru:8000/melodia128
+
+#EXTINF:-1 tvg-name="Юность" group-title="Радио", Юность
+#EXTGRP:Радио
+http://icecast.vgtrk.cdnvideo.ru/unost
+
+#EXTINF:-1 tvg-name="RADIO PANORAMA" group-title="Радио", Радио Панорама
+#EXTGRP:Радио
+http://listen.teploe.net:8100/6926
+
+#EXTINF:-1 tvg-name="MayakFM" group-title="Радио", МАЯК
+#EXTGRP:Радио
+http://icecast.vgtrk.cdnvideo.ru/mayakfm
+
+#EXTINF:-1 tvg-name="Серебряный дождь" group-title="Радио", Серебряный дождь
+#EXTGRP:Радио
+http://213.59.4.27:8000/silver128.mp3
+
+#EXTINF:-1 tvg-name="Радио Искатель" group-title="Радио", Искатель
+#EXTGRP:Радио
+https://iskatel.hostingradio.ru:8015/iskatel-128.mp3
+
+#EXTINF:-1 tvg-name="Crock" group-title="Радио", Classic Rock
+#EXTGRP:Радио
+http://strm112.1.fm/crock_mobile_mp3
+
+#EXTINF:-1 tvg-name="Instrumental Jazz" group-title="Радио", Радио Jazz
+#EXTGRP:Радио
+http://jfm1.hostingradio.ru:14536/ijstream
